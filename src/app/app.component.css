@@ -1,0 +1,9 @@
+
+main{
+  font-family: Helvetica;
+  position: sticky;
+  width: clamp(50%, 100vw, 100vw);
+}
+
+
+

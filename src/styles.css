@@ -1,1 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+@import './assets/css/carousel.css';
+@import './assets/css/header.css';
+@import './assets/css/body.css';
+@import './assets/css/card.css';

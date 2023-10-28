@@ -1,0 +1,158 @@
+.header{
+  margin: auto;
+    object-fit: cover;
+    width: 100%;
+    position: sticky;
+    top: 5vh;
+    margin-bottom: 0px;
+  /*  text-shadow: 1px 1px 2px white, 0 0 1em grey, 0 0 0.2em black; */
+   text-shadow: 1px 1px 2px black, 0 0 1em grey, 0 0 0.4em white; 
+   background-image: url("https://images.unsplash.com/photo-1505312917212-9db5bde78aff?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dHJvbGx0dW5nYXxlbnwwfHwwfHx8MA%3D%3D");
+   background-repeat: no-repeat;
+   background-size: cover;
+
+   
+  }
+  
+  .navbar {
+    position: fixed;
+    width: 100%;
+    height: 5vh;
+    z-index: 1;
+    background-color: transparent;
+    box-shadow: inset;
+    margin: auto;
+    display: flex;
+  }
+  
+  .dropdown {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 62px;
+    background-color: orange;
+  }
+  
+  .dropdown > div {
+    transform: translate(0, -100%);
+    transition: 0.5s 0.1s;
+    position: relative;
+  }
+  
+  .dropdown a {
+    display: block;
+    padding: 0;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: green;
+  }
+  
+  .item {
+    font-size: 0.8em;
+    display: inline-block;
+    position: relative;
+    padding: 0 20px;
+    cursor: pointer;
+    z-index: 5;
+    margin: auto;
+    min-width: 20%;
+    height: 60%;
+    line-height: 20px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .dropdown a:hover {
+    background: yellow;
+  }
+  
+  .underline {
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    height: 6px;
+    width: 100%;
+    background: white;
+    transition: 0.35s;
+  }
+  
+  .navbar .item:hover > .dropdown > div {
+    translate: 0;
+  }
+  
+  nav .item:nth-child(1):hover ~ .underline {
+    translate: 0;
+  }
+  
+  nav .item:nth-child(2):hover ~ .underline {
+    translate: 100% 0;
+  }
+  
+  nav .item:nth-child(3):hover ~ .underline {
+    translate: 200% 0;
+  }
+  
+  
+  .header-logo{
+    width: 5vh;
+    height: 5vh;
+    margin: 3px;
+  }
+  
+  .header{
+  background-color: #4F6F52;
+  box-shadow: rgba(50, 50, 93, 0.25) 30px 30px 60px 50px inset, rgba(0, 0, 0, 0.3) 10px 18px 36px -18px inset;
+/*    background-image: linear-gradient(to bottom, #ECE3CE, #739072); */
+    display: flex;
+    flex-direction:row;
+    height: 130%;
+  
+    padding-bottom: 0%;
+    padding-top: 0%;
+    width: clamp(100%, 75%, 300px);
+  }
+
+  .headerSubComponent {
+    margin: auto;
+    margin-bottom: 0%;
+    background-color: rgba(240, 248, 255, 0.4);
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  #header-name{
+    margin:auto;
+    font-size: 10vh;
+    color: white;
+  }
+  
+  #techStacksHeader{
+    margin: auto;
+  }
+  
+  #django-logo-header{
+
+    width: 7vw;
+    height: 4.3vh;
+  }
+  
+  .header #background{
+    position: absolute;
+    width: 100vw;
+    z-index: -1;
+    margin: 0px;
+  }
+  
+  .header-details{
+    display: flex;
+    padding: 102px;
+    flex-direction: column;
+  }
+  
+  .header #profileImage{
+    background-color: transparent;
+    margin: 0px;
+  }
+  
