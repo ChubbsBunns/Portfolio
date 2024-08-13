@@ -119,7 +119,7 @@ export const BentoGridItem = ({
           {id===2 && <GlobeDemo/>}
 
           {id===3 && (
-          <div className=" pt-3 flex justify-center gap-1 lg:gap-5 w-fit -right-3 lg:-right-2">
+          <><div className=" pt-3 flex justify-center gap-1 lg:gap-5 w-fit -right-3 lg:-right-2">
              <div className="flex flex-col gap-3 lg:gap-8">
                 {['React.js', 'Next.js', 'TypeScript'].map((item) => (
                   <span key={item} className="py-2 lg:py4 px-3 text-xs lg:text-base opacity-50 
@@ -145,6 +145,8 @@ export const BentoGridItem = ({
                 ))}
               </div>
           </div>
+          <div className="flex justify-center align-middle p-5 items-center">... and much more! Download my resume to see everything I'm experienced in.</div>
+          </>
           )}
 
           {

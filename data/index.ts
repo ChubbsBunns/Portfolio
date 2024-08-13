@@ -2,7 +2,8 @@ export const navItems = [
     { name: "About", link: "#about" },
     { name: "Resume/Testimonials", link: "#testimonials" },
     { name: "Projects", link: "#projects" },
-    { name: "Work Experience", link: "work"},
+    { name: "Work Experience", link: "#work"},
+    { name: "Beyond Work", link: "#beyondWork"},
     { name: "Contact", link: "#contact" },
   ];
   
@@ -76,13 +77,13 @@ export const navItems = [
       title: "First Hire, Job Alert SaaS",
       des: "First Hire is a emailing service that tracks the jobs that a user is looking out for and notifies them promptly.",
       img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      iconLists: ["/re.svg", "/material-ui-1.svg", "/nodejs.png", "/mongo.webp", "aws_ses.jpg", "Selenium_Logo.png", "bcryptLogo.png"],
+      link: "If you're reading this this probably means that the website is down",
     },
     {
       id: 2,
       title: "Personal Portfolio Website",
-      des: "This website! Everything here was designed and developed by me!",
+      des: "This website! Everything here was developed by me.",
       img: "/PortfolioPage.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
       link: "https://chubbsbunns.itch.io/",
@@ -91,7 +92,7 @@ export const navItems = [
       id: 3,
       title: "Game Development Projects",
       des: "I previously dabbled in Game Development. Feel free to checkout the games I've made in the past at itch.io!",
-      img: "/p2.svg",
+      img: "/collationGames.png",
       iconLists: ["/UnityLogo.png", "/GithubLogo2.png"],
       link: "https://chubbsbunns.itch.io/",
     },
@@ -100,8 +101,8 @@ export const navItems = [
       title: "Kakilang!",
       des: "A Social Web Application aimed at bringing communities together!",
       img: "/KakilangFrontPage.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      iconLists: ["/re.svg", "/material-ui-1.svg", "/nodejs.png", "/mongo.webp"],
+      link: "https://github.com/ChubbsBunns/Kakilang/",
     },
   ];
   

@@ -1,5 +1,7 @@
 import Hero from "@/components/Hero";
+import { Cards } from "@/components/PastJobs";
 import RecentProjects from "@/components/RecentProjects";
+import BeyondWork from "@/components/ui/BeyondWork";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import Grid from "@/components/ui/Grid";
 import { navItems } from "@/data";
@@ -14,6 +16,8 @@ export default function Home() {
         <Hero />
         <Grid />
         <RecentProjects />
+        <Cards />
+        <BeyondWork />
       </div>
     </main>
   );
