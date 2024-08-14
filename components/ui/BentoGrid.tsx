@@ -145,7 +145,7 @@ export const BentoGridItem = ({
                 ))}
               </div>
           </div>
-          <div className="flex justify-center align-middle p-5 items-center">... and much more! Download my resume to see everything I'm experienced in.</div>
+          <div className="flex justify-center align-middle p-5 items-center">... and much more! Download my resume to see everything I&#39;m experienced in.</div>
           </>
           )}
 

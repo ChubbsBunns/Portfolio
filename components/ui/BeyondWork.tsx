@@ -59,7 +59,7 @@ const BeyondWork = () => {
               translateZ="60"
               className="text-center text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
             >
-              I took up the House Captain position in the University Scholar's Programme (Now known as NUS College), managing a committee that planned events and welfare for a community with over 200 members.
+              I took up the House Captain position in the University Scholar&#39;s Programme (Now known as NUS College), managing a committee that planned events and welfare for a community with over 200 members.
             </CardItem>
           </CardBody>
         </CardContainer>
@@ -86,7 +86,7 @@ const BeyondWork = () => {
               translateZ="60"
               className="text-center text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
             >
-              With the Ministry of Social and Family Development, I mentored primary students from vulnerable backgrounds. Here I led 5 other student mentors in planning weekly activities and excursions to enrich the students' learning. (The students are not pictured here for PDPA reasons)
+              With the Ministry of Social and Family Development, I mentored primary students from vulnerable backgrounds. Here I led 5 other student mentors in planning weekly activities and excursions to enrich the students&#39; learning. (The students are not pictured here for PDPA reasons)
             </CardItem>
           </CardBody>
         </CardContainer>

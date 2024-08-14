@@ -21,7 +21,7 @@ const Hero = () => {
     <div className="flex justify-center relative my-25 h-[100vh] z-10">
       <div className="max-w-[89w] lg:max-w-[60vw] flex flex-col items-center justify-center">
         <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-          Dylan Ho Shu Jie's Web Portfolio
+          Dylan Ho Shu Jie&#39;s Web Portfolio
         </h2>
         <TextGenerateEffect className="text-center text-[40px] md:text-5xl lg:text-6xl" words="Transforming Concepts into Seamless User Experiences" />
         <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">Hi! I&apos;m Dylan, a Full-Stack Developer based in Singapore</p>

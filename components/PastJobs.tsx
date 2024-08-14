@@ -33,7 +33,7 @@ const OddleContent = () => {
 
               <br/>
               <br/>
-              Aside from that, I also worked on building client websites using Oddle's tools, and customized them to fit the style of whichever restaurant I was building a website for.
+              Aside from that, I also worked on building client websites using Oddle&#39;s tools, and customized them to fit the style of whichever restaurant I was building a website for.
               I also managed the inventory of Sunmi and other products at Oddle, sending them to clients whenever they required additional hardware and assistance.
             </p>
 
@@ -59,7 +59,7 @@ const MVPContent = () => {
               Here at NUS Enterprise, I was attached to MVP Studios, a software warehouse that takes in clients and produces software solutions for them. 
               <br/>
               Here my team and I focused on designing and building solutions for a large-scale farming company to automate their crop monitoring and harvesting processes.
-              Following the Agile workflow, we started each sprint discussing what needed to be done for the week. After finalising the architecture for the features to build for the week (if it was a feature focused sprint), we would then split up and carry out our tasks and consolidate everyone's work together.
+              Following the Agile workflow, we started each sprint discussing what needed to be done for the week. After finalising the architecture for the features to build for the week (if it was a feature focused sprint), we would then split up and carry out our tasks and consolidate everyone&#39;s work together.
               <br/>
               <br/>
               (One of our whiteboard scribbles after one of the start of sprint stand ups)
@@ -140,7 +140,7 @@ const AStarContent = () => {
               className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain py-1"
             />
             <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-l font-sans max-w-3xl mx-auto">
-              It's a Psyduck plushy (a Pokemon). It is beautiful.
+              It&#39;s a Psyduck plushy (a Pokemon). It is beautiful.
             </p>
 
           </div>
