@@ -108,6 +108,7 @@ const AStarContent = () => {
               alt="Digital Diagnostics Team"
               height="700"
               width="700"
+              sizes="90vw, 90vh"
               className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain py-1"
             />
             <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-l font-sans max-w-3xl mx-auto">

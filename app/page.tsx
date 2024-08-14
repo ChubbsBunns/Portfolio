@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import { Cards } from "@/components/PastJobs";
 import RecentProjects from "@/components/RecentProjects";
@@ -18,6 +19,7 @@ export default function Home() {
         <RecentProjects />
         <Cards />
         <BeyondWork />
+        <Footer />
       </div>
     </main>
   );

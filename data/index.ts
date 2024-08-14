@@ -207,13 +207,16 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/ChubbsBunns"
     },
     {
       id: 2,
-      img: "/twit.svg",
+      img: "/telegram.png",
+      link: "https://t.me/dylanhoshujie"
     },
     {
       id: 3,
       img: "/link.svg",
+      link: "https://www.linkedin.com/in/dylan-ho-shu-jie/"
     },
   ];

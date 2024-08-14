@@ -11,7 +11,7 @@ const BeyondWork = () => {
       </h1>
       <div className="flex justify-center items-center flex-col">
         <CardContainer className="inter-var">
-          <CardBody className="text-center flex justify-center items-center flex-col bg-black-100 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-300/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-[30vw] sm:w-auto md:w-[45vw] h-auto rounded-xl p-6 border  ">
+          <CardBody className="text-center flex justify-center items-center flex-col bg-black-100 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-300/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-[80vw] sm:w-auto md:w-[45vw] h-auto rounded-xl p-6 border  ">
             <CardItem
               translateZ="50"
               className="text-xl font-bold text-neutral-600 dark:text-white"
@@ -38,7 +38,7 @@ const BeyondWork = () => {
         </CardContainer>
 
         <CardContainer className="inter-var">
-          <CardBody className="text-center flex justify-center items-center flex-col bg-black-100 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-300/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-[30vw] sm:w-auto md:w-[45vw] h-auto rounded-xl p-6 border  ">
+          <CardBody className="text-center flex justify-center items-center flex-col bg-black-100 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-300/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-[80vw] sm:w-auto md:w-[45vw] h-auto rounded-xl p-6 border  ">
             <CardItem
               translateZ="50"
               className="text-xl font-bold text-neutral-600 dark:text-white"
@@ -65,7 +65,7 @@ const BeyondWork = () => {
         </CardContainer>
 
         <CardContainer className="inter-var">
-          <CardBody className="text-center flex justify-center items-center flex-col bg-black-100 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-300/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-[30vw] sm:w-auto md:w-[45vw] h-auto rounded-xl p-6 border  ">
+          <CardBody className="text-center flex justify-center items-center flex-col bg-black-100 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-300/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-[80vw] sm:w-auto md:w-[45vw] h-auto rounded-xl p-6 border  ">
             <CardItem
               translateZ="50"
               className="text-xl font-bold text-neutral-600 dark:text-white"
@@ -86,8 +86,7 @@ const BeyondWork = () => {
               translateZ="60"
               className="text-center text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
             >
-              I mentored 4 primary students from vulnerable backgrounds, closely providing academic support and guidance weekly.
-              I planned 2 full-day activities for the beneficiaries, leading 5 student mentors and collaborated with public servants. This resulted in execution of multiple enriching activities that engaged about 35 youths. (The students are not pictured here for PDPA reasons)
+              With the Ministry of Social and Family Development, I mentored primary students from vulnerable backgrounds. Here I led 5 other student mentors in planning weekly activities and excursions to enrich the students' learning. (The students are not pictured here for PDPA reasons)
             </CardItem>
           </CardBody>
         </CardContainer>
