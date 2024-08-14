@@ -6,20 +6,12 @@ import { profile } from 'console'
 
 const Footer = () => {
   return (
-    <footer className='w-full pt-20 pb-10' id="contact">
-      <div className='w-full absolute left-0 -bottom-42 min-h-96'>
-        <img
-        src="/footer-grid.svg"
-        alt="grid"
-        className="w-full h-full opacity-90"
-        />
-      </div>
-
+    <footer className='w-full pb-10 mb-[100px] md:mb-5' id="contact">
       <div className='flex flex-col items-center'>
         <h1 className='heading lg:max-w-[45vw] text-center'>
           Contact
         </h1>
-        <p className='text-white-200 md:mt-10 my-5 text-center'>If you have any suggestion, project or even you want to say “hello”, feel free to reachout to me via email, or any of the platforms below</p>
+        <p className='text-white-200 md:mt-10 my-5 text-center'>If you have any suggestions, project or even you want to say “hello”, feel free to reach out to me via email, or any of the platforms below.</p>
         <a href="mailto:dylanhoshujie@gmail.com">
           <MagicButton 
           title="Let's get in touch"

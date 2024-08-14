@@ -93,7 +93,7 @@ export const navItems = [
       title: "Game Development Projects",
       des: "I previously dabbled in Game Development. Feel free to checkout the games I've made in the past at itch.io!",
       img: "/collationGames.png",
-      iconLists: ["/UnityLogo.png", "/GithubLogo2.png"],
+      iconLists: ["/UnityLogo.png", "/GitHubLogo2.png"],
       link: "https://chubbsbunns.itch.io/",
     },
     {

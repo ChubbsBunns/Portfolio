@@ -13,7 +13,7 @@ export function Cards() {
       <h2 className=" flex justify-center items-center max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
         Past Work Experience
       </h2>
-      <h4 className=" flex justify-center items-center max-w-7xl pl-4 mx-auto text-neutral-800 dark:text-neutral-200 font-sans">Click Each Card to look into my experiences in each company.</h4>
+      <h4 className=" flex justify-center items-center max-w-7xl pl-4 mx-auto text-neutral-800 dark:text-neutral-200 font-sans">Click each card to look into my experiences in each company.</h4>
       <Carousel items={cards} />
     </div>
   );
