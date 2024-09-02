@@ -77,6 +77,9 @@
     @apply active:outline-none;
   }
 }
+body {
+  cursor:url("/My_head-Final.png"), auto;
+}
 
 @layer utilities {
   .heading {

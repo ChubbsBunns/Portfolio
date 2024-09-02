@@ -23,8 +23,10 @@ const Hero = () => {
         <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
           Dylan Ho Shu Jie&#39;s Web Portfolio
         </h2>
-        <TextGenerateEffect className="text-center text-[40px] md:text-5xl lg:text-6xl" words="Transforming Concepts into Seamless User Experiences" />
-        <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">Hi! I&apos;m Dylan, a Full-Stack Developer based in Singapore</p>
+        <TextGenerateEffect className="text-center text-[40px] md:text-5xl lg:text-6xl" words="Yes My Head is THE CURSOR" />
+        <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">Hi! I&apos;m Dylan, a Full-Stack Developer based in Singapore. </p>
+        <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">Scroll below to learn more about me!</p>
+        
         <a href="#about">
           <MagicButton title="Get to know me!" 
           icon={<FaLocationArrow/>}
