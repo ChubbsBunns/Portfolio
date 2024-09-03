@@ -77,8 +77,15 @@
     @apply active:outline-none;
   }
 }
+
 body {
-  cursor:url("/My_head-Final.png"), auto;
+  cursor: url('/my_face_pointer_norm.png'), auto;
+}
+
+a:hover,
+button:hover,
+.interactive {
+  cursor: url('/my_face_pointer_point.png'), auto;
 }
 
 @layer utilities {
