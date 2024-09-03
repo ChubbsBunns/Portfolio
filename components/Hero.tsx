@@ -23,7 +23,7 @@ const Hero = () => {
         <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
           Dylan Ho Shu Jie&#39;s Web Portfolio
         </h2>
-        <TextGenerateEffect className="text-center text-[40px] md:text-5xl lg:text-6xl" words="Yes My Head is THE CURSOR" />
+        <TextGenerateEffect className="text-center text-[40px] md:text-5xl lg:text-6xl" words="Yes My Head is the cursor" />
         <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">Hi! I&apos;m Dylan, a Full-Stack Developer based in Singapore. </p>
         <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">Scroll below to learn more about me!</p>
         
