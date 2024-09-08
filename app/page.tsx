@@ -8,7 +8,6 @@ import Grid from "@/components/ui/Grid";
 import { navItems } from "@/data";
 import Image from "next/image";
 import { FaHome } from "react-icons/fa";
-import CursorHoverWrapper from "@/components/ui/CursorHoverWrapper";
 
 export default function Home() {
   

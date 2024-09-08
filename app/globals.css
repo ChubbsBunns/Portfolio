@@ -78,18 +78,27 @@
   }
 }
 
-body {
+/* body {
+  cursor: url('/my_face_pointer_norm.png'), auto;
+} */
+
+.custom_cursor {
   cursor: url('/my_face_pointer_norm.png'), auto;
 }
 
-a:hover,
-button:hover,
-.interactive {
+.custom_cursor a:hover,
+.custom_cursor button:hover,
+.custom_cursor .interactive:hover {
   cursor: url('/my_face_pointer_point.png'), auto;
 }
 
+
 @layer utilities {
   .heading {
+    @apply font-bold text-4xl md:text-5xl text-center;
+  }
+
+  .subheading {
     @apply font-bold text-4xl md:text-5xl text-center;
   }
 
