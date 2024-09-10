@@ -78,7 +78,7 @@ export const navItems = [
       des: "First Hire is a emailing service that tracks the jobs that a user is looking out for and notifies them promptly.",
       img: "/firstHire.png",
       iconLists: ["/re.svg", "/material-ui-1.svg", "/nodejs.png", "/mongo.webp", "aws_ses.jpg", "Selenium_Logo.png", "bcryptLogo.png"],
-      link: "If you're reading this this probably means that the website is down",
+      link: "https://first-hire-client.vercel.app/",
     },
     {
       id: 2,
