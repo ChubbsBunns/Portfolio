@@ -50,7 +50,7 @@ export const CardContainer = ({
       <div className="pt-3">
         <div
           className={cn(
-            "py-2 flex items-start justify-start",
+            "py-2 flex items-start justify-stretch",
             containerClassName
           )}
           style={{
