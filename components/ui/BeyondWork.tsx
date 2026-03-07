@@ -59,7 +59,7 @@ const BeyondWork = () => {
               translateZ="60"
               className="text-center text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
             >
-              I engage in communities such as the Game Developer's Guild and SGGA in Singapore, taking part in game jams and am deeply intertwined in the game development community here in SG!
+              I engage in communities such as the Game Developers Guild and SGGA in Singapore, taking part in game jams and am deeply intertwined in the game development community here in SG!
               <br/>
               <br/>
                 We were even featured on the Straits Times as seen above!
