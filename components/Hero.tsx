@@ -26,7 +26,7 @@ const Hero = () => {
         <TextGenerateEffect className="text-center text-[40px] md:text-5xl lg:text-6xl" words="Yes My Head is the cursor" />        <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">Hi! I&apos;m Dylan, an Engineer who builds things and helps people solve them. </p>
         <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">Scroll below to learn more about me!</p>
         
-        <a href="#about">
+        <a href="#work">
           <MagicButton title="Get to know me!" 
           icon={<FaLocationArrow/>}
           position="right"
