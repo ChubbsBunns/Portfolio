@@ -9,7 +9,12 @@ export function Cards() {
   ));
 
   return (
-    <div className="w-full h-full py-20 " id="work">
+
+<div className="w-full h-full py-20 " id="work">
+        <div className="flex justify-center align-middle font-bold  text-xl p-3">Putting away my face for now</div>
+        <br/>
+        <br/>
+        <br/>
       <h2 className=" flex justify-center items-center max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
         Past Work Experience
       </h2>
@@ -148,12 +153,75 @@ const AStarContent = () => {
   )
 }
 
+const DBSContent = () => {
+  return (
+    <>
+          <div
+            key={"DBS-content"}
+            className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl mb-4"
+          >
+            <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-l font-sans max-w-3xl mx-auto">
+              At DBS, I was employed as a Tech Management Associate, which had over 2000+ applicants, and only 19 vacancies.
+              Here I was able to get to know many amazing likeminded people and learnt about the Financial Industry and how the large-scale infrastructure works in a bank.
+              <br/>
+            </p>
+            <Image
+              src="/bank_learning.png"
+              alt="DBS Team"
+              height="700"
+              width="700"
+              sizes="90vw, 90vh"
+              className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain py-1"
+            />
+            <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-l font-sans max-w-3xl mx-auto">
+              Attached to the NoSQL Team, which handled the MongoDB and Redis applications, I maintained and assisted in critical activities.
+              Such activities included migration of our core banking data from cluster to cluster without any downtime.
+              This was one of the many technical tasks handed over to me here at DBS.
+            </p>
+            <Image
+              src="/dbs_lunch.jpeg"
+              alt="Lunch with NoSQL DB Team"
+              height="700"
+              width="700"
+              className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain py-1"
+            />
+            
+            <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-l font-sans max-w-3xl mx-auto">
+              In between work, I also engaged in many different activities such as volunteering for Kids At Work, where we provided interactive experiences for children of employees, teaching them financial literacy.
+            </p>
+            <Image
+              src="/kids_at_work.png"
+              alt="Kids At Work"
+              height="700"
+              width="700"
+              className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain py-1"
+            />
+            <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-l font-sans max-w-3xl mx-auto">
+              In my time here at DBS, I was also able to work with people across teams, even playing impromptu netball with them during a department outing!
+            </p>
+            <Image
+              src="/DBS_netball.jpg"
+              alt="DBS Beach picture"
+              height="700"
+              width="700"
+              className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain py-1"
+            />
+          </div>
+    </>
+  )
+}
+
 const data = [
+  {
+    category: "DBS",
+    title: "Management Associate, Programmer",
+    src: "/dbs_lunch.jpeg",
+    content: <DBSContent />,
+  },
   {
     category: "A*STAR - Agency for Science, Technology and Research",
     title: "Software Developer",
     src: "/A_Star_Group.jpg",
-    /* src: "/A_Star_Logo_No_BG.png", */
     content: <AStarContent />,
   },
   {

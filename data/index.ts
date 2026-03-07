@@ -1,43 +1,13 @@
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Resume/Testimonials", link: "#testimonials" },
-    { name: "Projects", link: "#projects" },
     { name: "Work Experience", link: "#work"},
+    { name: "Projects", link: "#projects" },
     { name: "Beyond Work", link: "#beyondWork"},
     { name: "Contact", link: "#contact" },
   ];
   
   export const gridItems = [
-    {
-      id: 1,
-      title: "Aspiring Full-Stack Developer Eager to Grow and Innovate in the Tech World",
-      description: "",
-      className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-      imgClassName: "w-full h-full",
-      titleClassName: "justify-end",
-      img: "/b1.svg",
-      spareImg: "",
-    },
-    {
-      id: 2,
-      title: "I've worked with people across the globe (Australia, Sweden, California)",
-      description: "",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-      imgClassName: "",
-      titleClassName: "justify-start",
-      img: "",
-      spareImg: "",
-    },
-    {
-      id: 3,
-      title: "My tech stack",
-      description: "I constantly try to improve",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-      imgClassName: "",
-      titleClassName: "justify-center",
-      img: "",
-      spareImg: "",
-    },
     {
       id: 4,
       title: "Take a look at my resume!",
